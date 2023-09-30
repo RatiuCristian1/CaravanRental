@@ -65,7 +65,7 @@ export default function Caravans() {
       </div>
       <div className="caravans-container-bottom">
         <h2 className="caravans-container-bottom-text">Welcome to the Caravan World Family !!</h2>
-      <img className="caravan-image-bottom" src="DET_Image_Header_1920x300_EN_3.jpg" alt="wtf is happening?" />
+      <img className="caravan-image-bottom" src="images/DET_Image_Header_1920x300_EN_3.jpg" alt="wtf is happening?" />
     </div>
     <div className="caravans-family-container">
       <h3 className="caravans-family-text">Embrace your family</h3>
