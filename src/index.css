@@ -64,6 +64,12 @@ nav  {
   font-weight: 500;
 }
 
+.navigation--el a:hover {
+  color:#110101;
+  text-shadow: 0 0px 10px #ffffff;
+  font-weight: bold;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -258,7 +264,7 @@ footer {
 .caravan-card {
   flex-basis: calc(50% - 20px);
   /* box-sizing: border-box; */
-  margin-bottom: 20px;
+  margin-bottom: 75px;
   overflow: hidden;
 }
 
@@ -372,6 +378,7 @@ footer {
     flex-basis: 100%;
     text-align: center; /* Center the content horizontally */
     overflow: hidden;
+    margin-bottom: 30px;
   }
 
   .caravans-container {
