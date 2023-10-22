@@ -6,7 +6,7 @@ import {
   query,
   where,
 } from "firebase/firestore/lite";
-import { db } from "../api"; // Import your Firestore instance from api.js
+import { db } from "../api"; 
 import { getStorage, ref, getDownloadURL } from 'firebase/storage';
 
 export default function Caravans() {
@@ -21,7 +21,7 @@ export default function Caravans() {
 
         for (const doc of querySnapshot.docs) {
           const data = doc.data();
-          const storageRef = ref(getStorage(), data.imagePath); // Assuming you have an "imagePath" field in your Firestore data
+          const storageRef = ref(getStorage(), data.imagePath); 
 
           try {
             const downloadURL = await getDownloadURL(storageRef);

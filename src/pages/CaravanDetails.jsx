@@ -46,12 +46,22 @@ export default function CaravanDetail() {
             
             {van && (
                 <div className="caravan-detail">
-                    <img src={van.imageUrl} className="caravan--detail--image" />
-                    {/* <i className={`van-type ${van.type} selected`}>
-                        {van.type}
-                    </i> */}
-                    <h2>{van.name}</h2>
-                    <p className="caravan-price"><span>${van.price}</span>/day</p>
+                    <div className="caravan-detail-image-container">
+                        <img src={van.imageUrl} className="caravan--detail--image" />
+                        {/* <i className={`van-type ${van.type} selected`}>
+                            {van.type}
+                        </i> */}
+                        <div className="caravan-image-text-price">
+                            <div>
+                                <h4 className="caravan-name">Name</h4>
+                                <h2 className="caravan-name">{van.name}</h2>
+                            </div>
+                            <div>
+                                <h4 className="caravan-price">Price</h4>
+                                <p className="caravan-price price"><span>${van.price}</span>/day</p>
+                            </div>
+                        </div>
+                    </div>
                     <p className="caravan--details-description">{van.description}</p>
                     <Link to='/login'  className="link-button">Rent this van</Link>
                 </div>

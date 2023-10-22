@@ -470,6 +470,60 @@ footer {
   text-decoration: none;
 }
 
+@media screen and (max-width: 800px) {
+  .caravan-detail-container {
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccd8cd;
+    color: #161616;
+    border-radius: 10px;
+  }
+
+  .caravan-detail-image-container {
+    background-color: #E9E9E9;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(145, 144, 144);
+  }
+
+  .caravan-detail-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .caravan-details {
+    margin-top: 10px; /* Adjust the margin as needed */
+    text-align: center;
+  }
+
+  .caravan-image-text-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto 0.5em;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    box-shadow: 0 0 5px rgb(170, 170, 170);
+  }
+
+  .caravan-name,
+  .caravan-price {
+    margin: 0;
+  }
+
+  .price {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}
+
 /* ....................................About Page */
 
 @media screen and (min-width: 800px) {
