@@ -201,12 +201,15 @@ nav  {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   /* border: 0.4px solid rgb(20, 146, 41); */
   border: 0.4px solid rgb(90, 92, 91);
-  
 }
 
 .animate-slide-up {
   /* Update the bottom property to move the button up */
   bottom: 120px; /* Adjust the final position as needed */
+}
+
+.home--caravan--button:hover {
+  background-color: #278142;
 }
 
 @media screen and (max-width: 800px) {
