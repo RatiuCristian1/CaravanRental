@@ -52,12 +52,12 @@ export default function CaravanDetail() {
                             {van.type}
                         </i> */}
                         <div className="caravan-image-text-price">
-                            <div>
-                                <h4 className="caravan-name">Name</h4>
-                                <h2 className="caravan-name">{van.name}</h2>
+                            <div className="name--container">
+                                <h4 className="caravan-name">Name:</h4>
+                                <h2 className="caravan-name name">{van.name}</h2>
                             </div>
-                            <div>
-                                <h4 className="caravan-price">Price</h4>
+                            <div className="price--container">
+                                <h4 className="caravan-price">Price:</h4>
                                 <p className="caravan-price price"><span>${van.price}</span>/day</p>
                             </div>
                         </div>

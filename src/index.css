@@ -223,9 +223,13 @@ footer {
   height: 100px;
   display: flex;
   flex-shrink: 0;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-weight: 500;;
+}
+
+.contact--header {
+  margin: 0;
 }
 
 /* footer {
@@ -433,6 +437,38 @@ footer {
   color: #161616;
 }
 
+.caravan-detail-image-container {
+  display: flex;
+  width: 90%;
+}
+
+.caravan-image-text-price {
+  width: 200px;
+  background-color: #d8d8d8;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 0 5px rgb(145, 144, 144);
+
+}
+
+.name--container,
+.price--container {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.caravan-name,
+.caravan-price {
+  margin: 0;
+}
+
+.name,
+.price {
+  font-size: 1.75rem;
+}
 
 .caravan-detail {
   display: flex;
@@ -456,7 +492,7 @@ footer {
   position: relative;
   right: 650px;
   top: 10px;
-  box-shadow: 0 0 10px ;
+  box-shadow: 0 0 10px;
 }
 
 .link-button {
@@ -484,6 +520,8 @@ footer {
   }
 
   .caravan-detail-image-container {
+    display: flex;
+    flex-direction: column;
     background-color: #E9E9E9;
     margin: 10px;
     border-radius: 5px;
@@ -522,6 +560,14 @@ footer {
     font-weight: 500;
     font-size: 1.5rem;
   }
+
+  .back-button {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 125px;
+  }
+
 }
 
 /* ....................................About Page */
@@ -691,6 +737,30 @@ footer {
   cursor: pointer;
 }
 
+.van-list-filter-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 1.3em;
+  gap: 20px;
+}
+
+.van-list-filter-buttons > button {
+  padding: 0.5em 1.2em;
+  border-radius: 5px;
+  border: none;
+  background-color: #23502B;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.van-list-filter-buttons > button:hover {
+  background-color: #66866a;
+  box-shadow: 10px 5px 2px #025710;
+}
+
+.explore--header {
+  text-align: center;
+}
 
 
 
