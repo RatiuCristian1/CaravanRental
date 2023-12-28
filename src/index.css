@@ -642,7 +642,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 800px)  {
+@media screen and (max-width: 360px)  {
   .about--container--1 {
     display: flex;
     flex-direction: column;
@@ -673,6 +673,31 @@ footer {
     height: auto;
   }
 
+  .home--container {
+    width: 100%;
+    max-width: 100vh;
+  }
+
+  .home--conatiner--text{ 
+    margin-top: 20px;
+  }
+
+  .home--welcome {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+
+  .home--caravan--button {
+    height: 70px;
+    font-size: 1rem;
+  }
+
+  .footer--container {
+    width: 100%;
+  }
+  footer {
+    padding: 0px 20px;
+  }
 
 }
 
